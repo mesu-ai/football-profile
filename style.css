@@ -534,6 +534,13 @@ button{
 
 @media only screen and (max-width:668px) {
 
+    body,footer{
+
+        overflow-x: hidden;
+    }
+
+
+
 
     /*-------- common design ----------- */
 
