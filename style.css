@@ -104,7 +104,9 @@ footer{
 }
 
 
-/* article section */
+/*--------------------------------------
+           article section
+-------------------------------------- */
 
 
 .cover{
@@ -136,6 +138,11 @@ footer{
     
 }
 
+.cover:hover .banner{
+    transform: scale(.8);
+    transition: transform 3s ease-in-out;
+}
+
 .title{
     width: 50%;
     width: 485px;
@@ -160,24 +167,26 @@ footer{
 
 .live-button{
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    background: #E02C6D;
     height: 44px;
     width: 168px;
-    padding: 10px, 24px, 10px, 24px;
+    background: #E02C6D;
+    
 
 }
 
 .live-button a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     
+    height: 44px;
+    width: 168px;
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     color: white;
     line-height: 24px;
+    
     
 
 }
