@@ -274,7 +274,18 @@ footer{
         league information
  --------------------------------- */
 
+ #le-h3{
+     font-size: 30px;
+     font-weight: 700;
+     color: white;
+        
+}
+
+
+
+
  .league-container{
+     background-color: blue;
      margin-top: 30px;
      margin-bottom: 40px;
 
@@ -288,7 +299,8 @@ footer{
 
 
 .latest-league{
-     background-color: rgb(218, 210, 195);
+     background-color: rgb(198, 202, 162);
+     border-radius: 10px;
 
     width: 1100px;
     height: 362px;
@@ -377,6 +389,56 @@ margin-bottom: 0px;
 }
 
 
+/*------------------------------
+        email submission
+-------------------------------- */
+
+#e-h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+
+.email-submission{
+    margin-bottom: 10px;
+    height: 200px;
+    background-color: wheat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email{
+
+    width: 1050px;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+input{
+    width: 70%;
+    height: 70px;
+    border-radius: 20px;
+
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+}
+
+button{
+    margin: 0 20px ;
+    padding: 15px;
+    background-color: rgb(24, 102, 8);
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 
 /*------------------------------
@@ -385,7 +447,7 @@ margin-bottom: 0px;
 
 
 .footer-container{
-    margin-top: 100px;
+    margin-top: 20px;
     padding: 20px 20px;
     display: flex;
     flex-flow:wrap column;
