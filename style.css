@@ -525,6 +525,450 @@ button{
 
 
 
+/* -------------------------------------
+             media quaries
+            
+        **** For mobile device ****
+---------------------------------------- */
+
+
+@media only screen and (max-width:668px) {
+
+
+    /*-------- common design ----------- */
+
+
+
+    /*---------- header----------- */
+
+
+    .menu-container{
+        display: none;
+    }
+
+
+
+/*---------- cover--------- */
+
+
+
+.cover{
+    margin-top: 0;
+    height: 695px;
+    width:360px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.details{
+    
+    
+    
+    display: flex;
+    flex-flow: wrap column;
+    align-content: center;
+    
+
+}
+
+.banner{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.cover:hover .banner{
+    transform: scale(.8);
+    transition: transform 3s ease-in-out;
+}
+
+.title{
+    
+    width: 278px;
+    height: 138px;
+    
+
+}
+
+
+.title > h3{
+
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    line-height: 50px;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+
+.live-button{
+    
+    height: 44px;
+    width: 168px;
+    background: #E02C6D;
+    
+
+}
+
+.live-button a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    height: 44px;
+    width: 168px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    line-height: 24px;
+    
+    
+
+}
+
+.banner img{
+    width: 229px;
+    height: 259px;
+    
+}
+
+
+    /* ---------player profile----------- */
+
+
+    .player-container{
+
+        margin-top: 47px;
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .players-profile{
+        width: 360px;
+        
+    
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 15px;
+        row-gap: 42px;
+        
+        
+    
+    }
+    .player{
+        
+        padding-top: 15px;
+        /* border-bottom-width: 5px; */
+        padding-bottom: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+        height: 420px;
+        width: 300px;
+    
+        border:3px solid rgb(0, 0, 0);
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+    }
+    
+    .photo{
+        height: 256px;
+        margin-top: 0px;
+    }
+    
+    .photo> img{
+        width: 300px;
+        height:256px;
+        margin:16px 0;
+        margin-top: 0px;
+    }
+    
+    .name{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+    }
+    .name>h5{
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .description{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .description>p{
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+    }
+
+    /*----- latest league------- */
+
+    
+ #le-h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+       
+}
+
+
+
+
+.league-container{
+    background-color: blue;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+
+.latest-league{
+    margin-bottom: 20px;
+    
+    background-color: rgb(198, 202, 162);
+    border-radius: 10px;
+
+   width: 100%;
+   height: 100%;
+
+   display: flex;
+
+   flex-direction: column;
+   flex-wrap: wrap;
+   
+   justify-content:space-evenly;
+   align-items: center;
+
+}
+
+.league{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    
+
+   background-color: tomato;
+   border-radius: 10px;
+   box-shadow: 0 0 5px 5px white;
+   width: 250px;
+   height: 270px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-content: center;
+
+}
+.thambnail{
+   width: 224px;
+   height: 104px;
+   
+
+
+}
+
+
+.thambnail>img{
+   width: 224px;
+   height: 104px;
+
+}
+
+.league-tittle{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.league-tittle h4{
+   font-size: 20px;
+   line-height: 24px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+
+}
+.league-details{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.filled{
+   color: yellow;
+}
+.count p{
+   margin-left: 6px;
+   margin-right: 6px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+
+}
+
+.next-match h5{
+   font-size: 20px;
+
+   margin-top: 0px;
+margin-bottom: 0px;
+}
+
+
+.next-match a{
+   text-decoration: none;
+   background-color: white;
+   border-radius: 20px;
+   padding: 0px 5px;
+
+
+}
+
+/*------ email------- */
+
+
+#e-h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+
+.email-submission{
+    margin-bottom: 10px;
+    height: 200px;
+    background-color: wheat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email{
+
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+input{
+    width: 60%;
+    height: 70px;
+    border-radius: 20px;
+
+    font-size: 20px;
+    color: red;
+    font-weight: 700;
+}
+
+button{
+    margin: 0 20px ;
+    padding: 15px;
+    background-color: rgb(24, 102, 8);
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* ------footer------- */
+
+
+.footer-container{
+    margin-top: 20px;
+    padding: 20px 20px;
+    display: flex;
+    flex-flow:wrap column;
+    justify-content: center;
+    align-items: center;
+}
+
+.website-logo{
+    height: 110px;
+}
+
+.website-logo>img{
+    height: 110px;
+    width: 484px;
+    
+}
+
+.s-link{
+    margin: 0px 14px;
+    
+}
+
+    
+.fa-facebook{
+    color: blue;
+    border-radius: 20%;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+    
+
+   }
+.fa-whatsapp-square{
+
+    color:rgb(15, 122, 15);
+    border-radius: 20%;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+    
+
+} 
+
+.fa-youtube{
+    color:red;
+    border-radius: 20%;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+    
+
+}
+.fa-twitter-square{
+    color:rgb(0, 217, 255);
+    border-radius: 20%;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+    
+    
+}
+    
+.copywrite{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+
+    
+}
+
+
 
 
 
