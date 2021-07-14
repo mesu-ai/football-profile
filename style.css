@@ -26,6 +26,11 @@ body{
 
 }
 
+footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dbd8d8;
+}
+
 
 
 /*--------- header-------- */
@@ -193,22 +198,25 @@ body{
     margin-top: 70px;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
 .players-profile{
     width: 1050px;
-    height: 456px;
+    
 
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 30px;
+    row-gap: 27px;
     
     
 
 }
 .player{
+    
     padding-top: 15px;
     /* border-bottom-width: 5px; */
     padding-bottom: 15px;
@@ -257,6 +265,79 @@ body{
     line-height: 26px;
     margin-top: 0px;
     margin-bottom: 0px;
+
+}
+
+/*------------------------------
+             footer
+------------------------------ */
+
+
+.footer-container{
+    margin-top: 100px;
+    padding: 20px 20px;
+    display: flex;
+    flex-flow:wrap column;
+    justify-content: center;
+    align-items: center;
+}
+
+.website-logo{
+    height: 110px;
+}
+
+.website-logo>img{
+    height: 110px;
+    width: 484px;
+    
+}
+
+.s-link{
+    margin: 0px 14px;
+    
+}
+
+    
+.fa-facebook{
+    color: blue;
+    border-radius: 20%;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+    
+
+   }
+.fa-whatsapp-square{
+
+    color:rgb(15, 122, 15);
+    border-radius: 20%;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+    
+
+} 
+
+.fa-youtube{
+    color:red;
+    border-radius: 20%;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+    
+
+}
+.fa-twitter-square{
+    color:rgb(0, 217, 255);
+    border-radius: 20%;
+    box-shadow: 0 0 5px 5px rgb(255, 255, 255);
+    
+    
+
+
+}
+    
+
+
+
+.copywrite{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
 
 }
 
