@@ -275,38 +275,106 @@ footer{
  --------------------------------- */
 
  .league-container{
-     
+     margin-top: 30px;
+     margin-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 
  }
 
 
 .latest-league{
-    /* background-color: rgb(218, 210, 195);
+     background-color: rgb(218, 210, 195);
 
-    width: 870px;
-    height: 362px; */
+    width: 1100px;
+    height: 362px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
 .league{
+
     background-color: tomato;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px white;
     width: 250px;
     height: 270px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.thambnail{
+    width: 224px;
+    height: 104px;
+    
+
+
 }
 
-.league>.cover>img{
+
+.thambnail>img{
     width: 224px;
     height: 104px;
 
 }
 
+.league-tittle{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.league-tittle h4{
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.league-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.filled{
+    color: yellow;
+}
+.count p{
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.next-match h5{
+    font-size: 20px;
+
+    margin-top: 0px;
+margin-bottom: 0px;
+}
 
 
+.next-match a{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0px 5px;
 
 
-
-
+}
 
 
 
