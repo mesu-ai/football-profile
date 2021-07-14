@@ -903,7 +903,7 @@ button{
 
 .footer-container{
     margin-top: 20px;
-    padding: 20px 20px;
+    padding: 15px 15px;
     display: flex;
     flex-flow:wrap column;
     justify-content: center;
@@ -911,17 +911,17 @@ button{
 }
 
 .website-logo{
-    height: 110px;
+    height: 70px;
 }
 
 .website-logo>img{
-    height: 110px;
-    width: 484px;
+    height: 80px;
+    width: 50%;
     
 }
 
 .s-link{
-    margin: 0px 14px;
+    margin: 0px 10px;
     
 }
 
@@ -958,8 +958,8 @@ button{
 }
     
 .copywrite{
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 24px;
     font-weight: 400;
 
 }
