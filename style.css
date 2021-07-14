@@ -1,8 +1,7 @@
-
-
 /*-----------------------------
              Fonts
 ------------------------------ */
+
 
 
 /* ---poppins--- */
@@ -10,9 +9,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
+
+
+
+
+
 /*-------------------------------
             CSS Design
 -------------------------------- */
+
 
 
 
@@ -42,8 +47,9 @@ footer{
     background-color: blue;
 
 
-
 }
+
+/*---- navigation bar----- */
 
 .menu-container{
     position: relative;
