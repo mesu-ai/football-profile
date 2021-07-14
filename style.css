@@ -119,9 +119,6 @@ body{
     flex-flow: wrap column;
     align-content: flex-end;
     
-    
-    
-    
 
 }
 
@@ -180,16 +177,90 @@ body{
 
 }
 
-
-
-
-
 .banner img{
     width: 556px;
     height: 438px;
     
+}
+
+
+/*----------------------------------
+           player profile
+----------------------------------- */
+
+.player-container{
+
+    margin-top: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+.players-profile{
+    width: 1050px;
+    height: 456px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    
+    
+
+}
+.player{
+    padding-top: 15px;
+    /* border-bottom-width: 5px; */
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 420px;
+    width: 300px;
+
+    border:3px solid rgb(0, 0, 0);
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+
+.photo{
+    height: 256px;
+    margin-top: 0px;
+}
+
+.photo> img{
+    width: 300px;
+    height:256px;
+    margin:16px 0;
+    margin-top: 0px;
+}
+
+.name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.name>h5{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.description{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.description>p{
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+
 
 
 
